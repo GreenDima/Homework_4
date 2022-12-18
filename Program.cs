@@ -58,7 +58,8 @@
 //     int [] arr = new int[lenght];
 //     for (int i = 0; i < arr.Length; i++)
 //     {
-//         arr[i] = new Random().Next(1,1000);
+//         Console.Write("Введите элемент массива: ");
+//         arr[i] = Convert.ToInt32(Console.ReadLine());
 //     }
 //     return arr;
 // }
